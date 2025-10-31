@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NEESA TIPS</title>
+
+  <!-- 🧠 Facebook Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '777677041746385'); 
+    fbq('track', 'PageView');
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=777677041746385&ev=PageView&noscript=1"/>
+  </noscript>
+
+  <!-- 🕒 3 सेकंड बाद Telegram Redirect -->
+  <script>
+    setTimeout(function() {
+      window.location.href = "https://t.me/+Lvt0UC2BH_VhN2M1";
+    }, 3000);
+  </script>
+
+  <style>
+    /* Background और Text Styling */
+    body {
+      font-family: "Poppins", sans-serif;
+      color: white;
+      text-align: center;
+      padding-top: 100px;
+      margin: 0;
+      height: 100vh;
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+        url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') no-repeat center center/cover;
+    }
+
+    h1 {
+      font-size: 42px;
+      font-weight: 700;
+      text-shadow: 2px 2px 10px rgba(0,0,0,0.6);
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 22px;
+      font-weight: 400;
+      margin-bottom: 40px;
+      color: #f0f0f0;
+    }
+
+    img {
+      width: 140px;
+      border-radius: 50%;
+      border: 3px solid #fff;
+      box-shadow: 0 0 20px rgba(255,255,255,0.4);
+    }
+
+    /* Animated Button */
+    .btn {
+      display: inline-block;
+      padding: 14px 30px;
+      background: linear-gradient(45deg, #00c3ff, #0066ff);
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+      border-radius: 50px;
+      text-decoration: none;
+      position: relative;
+      overflow: hidden;
+      transition: 0.3s ease-in-out;
+      box-shadow: 0 0 20px rgba(0, 102, 255, 0.6);
+    }
+
+    .btn::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: rgba(255,255,255,0.3);
+      transform: skewX(-45deg);
+      transition: 0.5s;
+    }
+
+    .btn:hover::before {
+      left: 100%;
+    }
+
+    .timer {
+      margin-top: 20px;
+      font-size: 18px;
+      color: #ffcc00;
+    }
+  </style>
+</head>
+
+<body>
+  <img src="https://via.placeholder.com/150" alt="Logo">
+  <h1>NEESA TIPS</h1>
+  <h2>Join our premium Telegram channel 💹</h2>
+  <a href="https://t.me/+Lvt0UC2BH_VhN2M1" class="btn">JOIN TELEGRAM NOW</a>
+
+  <!-- Countdown Text -->
+  <div class="timer" id="timer">Redirecting in 3 seconds...</div>
+
+  <script>
+    let sec = 3;
+    const timer = document.getElementById("timer");
+    const interval = setInterval(() => {
+      sec--;
+      timer.textContent = `Redirecting in ${sec} seconds...`;
+      if (sec === 0) clearInterval(interval);
+    }, 1000);
+  </script>
+</body>
+</html>
